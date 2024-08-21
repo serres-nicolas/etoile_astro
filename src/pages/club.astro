@@ -2,55 +2,67 @@
 import Layout from '../layouts/Layout.astro';
 ---
 <Layout>
-	<main>
+	<main class="px-4 py-8 mx-auto max-w-screen-xl">
         <section>
-            <div class="bg-white max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16">
-				<div class="flex flex-col">
-                	<h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">L'histoire du club</h2>
-					<p class=" mt-6 text-lg leading-8 text-gray-600 md:text-lg lg:text-xl">L’Étoile Goussainvilloise est une association Loi 1901, fondée en 1933. et aujourd’hui affiliée à la Fédération Française de Gymnastique. </p>
-					<p class="text-lg leading-8 text-gray-600 md:text-lg lg:text-xl">L’association est propriétaire de sa salle spécialisée, elle en assure l’entretien et les réparations.
-					Le club assure l’acquisition et le renouvellement du matériel gymnique.</p>
-					<img class="p-5" src="/gym_home.svg">
-					<p class="text-lg leading-8 text-gray-600 md:text-lg lg:text-xl">L’association est propriétaire de sa salle spécialisée, elle en assure l’entretien et les réparations.
-					Le club assure l’acquisition et le renouvellement du matériel gymnique.</p>
-					<p class="text-lg leading-8 text-gray-600 md:text-lg lg:text-xl mt-6">Sa construction a été faite par les bénévoles de l’époque et interrompue pour cause de guerre, certes les entrainements se poursuivent.</p>
-					<p class="text-lg leading-8 text-gray-600 md:text-lg lg:text-xl">Quelques jeunes sur une barre fixe oublient les malheurs de l’époque mais le drame frappe, ALBERT NENEZ un gymnaste se tue.</p>
-					<p class="text-lg leading-8 text-gray-600 md:text-lg lg:text-xl">Lors de l’ouverture en 1948, le nom d’ALBERT NENEZ fut donné au gymnase de 250 m2.</p>
-					<p class="text-lg leading-8 text-gray-600 md:text-lg lg:text-xl mt-6">L’étoile Goussainvilloise est propriétaire de sa salle spécialisée, elle en assure l’entretien et les réparations.
-					Le club assure l’acquisition et le renouvellement du matériel gymnique.</p>
-					<p class="text-lg leading-8 text-gray-600 md:text-lg lg:text-xl">Cette salle est également à ce jour mise à la disposition de la municipalité de la ville de Goussainville, dans le cadre de la réforme des rythmes scolaires depuis septembre 2016.</p>
-				</div>
-			
-				<h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl lg:pt-16">Notre Equipe</h2>
-					<div class="grid xl:grid-cols-2 mx-auto lg:gap-8 mt-6">
-						<div class="flex flex-col bg-gray-700 items-center rounded-lg">
-							<p class="text-gray-400 text-xl leading-8">Bureau Directeur</p>
-							<p class="text-gray-400 text-l leading-8">Composée de 14 membres</p>
-						</div>
-						<div class="flex flex-col bg-gray-700 items-center rounded-lg">
-							<p class="text-gray-400 text-l leading-8">Equipe technique</p>
-							<p class="text-gray-400 text-l leading-8">Composée de 14 membres</p>
-						</div>
-					</div>
-				<h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl lg:pt-16">Quelques Chiffres</h2>
-					<div class="grid xl:grid-cols-3 mx-auto lg:gap-8 mt-6 h-full w-full bg-gray-700 bg-opacity-20 rounded-lg bg-clip-padding backdrop-filter backdrop-blur-sm border border-gray-100">
-						<div class="flex flex-col  items-center justify-center rounded-lg gap-2">
-							<img class="hidden lg:block" src="/gymnast.svg">
-							<img class="hidden lg:block" src="/groupes.svg">
-							<img class="hidden lg:block" src="/hour.svg">
-						</div>
-						<div class="flex flex-col items-start justify-center rounded-lg gap-5">
-							<p class="text-gray-900 text-xl leading-8">433 Adhérents</p>
-							<p class="text-gray-900 text-xl leading-8">33 Groupes</p>
-							<p class="text-gray-900 text-xl leading-8">105 heures d'entrainements / semaine</p>
-						</div>
-						<div class="flex flex-col  items-center justify-center rounded-lg">
-							<img class="hidden lg:block" src="/graph.svg">
-						</div>
-					</div>
+            <div class="bg-white py-8 lg:py-16">
+                <div class="flex flex-col">
+                    <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">L'histoire du club</h2>
+                    <p class="mt-6 text-lg leading-8 text-gray-600 md:text-lg lg:text-xl">
+                        L’Étoile Goussainvilloise est une association Loi 1901, fondée en 1933 et aujourd’hui affiliée à la Fédération Française de Gymnastique.
+                    </p>
+                    <p class="text-lg leading-8 text-gray-600 md:text-lg lg:text-xl">
+                        L’association est propriétaire de sa salle spécialisée, elle en assure l’entretien et les réparations.
+                        Le club assure l’acquisition et le renouvellement du matériel gymnique.
+                    </p>
+                    <img class="p-5 w-full max-w-md mx-auto" src="/gym_home.svg" alt="Salle de Gym">
+                    <p class="text-lg leading-8 text-gray-600 md:text-lg lg:text-xl">
+                        Sa construction a été faite par les bénévoles de l’époque et interrompue pour cause de guerre, certes les entrainements se poursuivent.
+                    </p>
+                    <p class="text-lg leading-8 text-gray-600 md:text-lg lg:text-xl">
+                        Quelques jeunes sur une barre fixe oublient les malheurs de l’époque mais le drame frappe, ALBERT NENEZ un gymnaste se tue.
+                    </p>
+                    <p class="text-lg leading-8 text-gray-600 md:text-lg lg:text-xl">
+                        Lors de l’ouverture en 1948, le nom d’ALBERT NENEZ fut donné au gymnase de 250 m2.
+                    </p>
+                    <p class="text-lg leading-8 text-gray-600 md:text-lg lg:text-xl mt-6">
+                        L’étoile Goussainvilloise est propriétaire de sa salle spécialisée, elle en assure l’entretien et les réparations.
+                        Le club assure l’acquisition et le renouvellement du matériel gymnique.
+                    </p>
+                    <p class="text-lg leading-8 text-gray-600 md:text-lg lg:text-xl">
+                        Cette salle est également à ce jour mise à la disposition de la municipalité de la ville de Goussainville, dans le cadre de la réforme des rythmes scolaires depuis septembre 2016.
+                    </p>
+                </div>
 
-			</div>
-		</section>
+                <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl lg:pt-16">Notre Équipe</h2>
+                <div class="grid xl:grid-cols-2 gap-8 mt-6">
+                    <div class="flex flex-col bg-gray-700 items-center rounded-lg p-4">
+                        <p class="text-gray-400 text-xl leading-8">Comité Directeur</p>
+                        <p class="text-gray-400 text-lg leading-8">Composée de 14 membres</p>
+                        <p class="text-gray-400 text-lg leading-8">Président</p>
+                    </div>
+                    <div class="flex flex-col bg-gray-700 items-center rounded-lg p-4">
+                        <p class="text-gray-400 text-lg leading-8">Équipe technique</p>
+                        <p class="text-gray-400 text-lg leading-8">Composée de 14 membres</p>
+                    </div>
+                </div>
+
+                <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl lg:pt-16">Quelques Chiffres</h2>
+                <div class="grid xl:grid-cols-3 gap-8 mt-6 bg-gray-700 bg-opacity-20 rounded-lg p-4">
+                    <div class="flex flex-col items-center justify-center gap-2">
+                        <img class="hidden lg:block w-12 h-12" src="/gymnast.svg" alt="Gymnast">
+                        <img class="hidden lg:block w-12 h-12" src="/groupes.svg" alt="Groupes">
+                        <img class="hidden lg:block w-12 h-12" src="/hour.svg" alt="Heures">
+                    </div>
+                    <div class="flex flex-col items-start justify-center gap-4">
+                        <p class="text-gray-900 text-lg leading-8">433 Adhérents</p>
+                        <p class="text-gray-900 text-lg leading-8">33 Groupes</p>
+                        <p class="text-gray-900 text-lg leading-8">105 heures d'entraînements / semaine</p>
+                    </div>
+                    <div class="flex flex-col items-center justify-center">
+                        <img class="hidden lg:block" src="/graph.svg" alt="Graph">
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
-
 </Layout>

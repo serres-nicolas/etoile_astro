@@ -4,7 +4,7 @@ import Layout from '../layouts/Layout.astro';
 <Layout>
 	<main>
         <section>
-            <div class="bg-white max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16">
+            <div class="grid lg:grid-cols-2 bg-white max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16">
 				<div class="flex flex-col gap-8">
                     <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Comment nous contacter ?</h2>
                     
@@ -14,14 +14,24 @@ import Layout from '../layouts/Layout.astro';
                         </div>
                         <div class="flex flex-row items-center justify-start gap-8">
                             <img src="Group1.svg">
-                            <p class="text-lg leading-8 text-gray-600 md:text-lg lg:text-2xl">etoilegoussainvilloise.fr</p>
+                            <p class="text-lg leading-8 text-gray-600 md:text-lg lg:text-2xl">etoilegoussainvilloise.fr</p> 
                         </div>
                         <div class="flex flex-row items-center justify-start gap-8">
                             <img src="Group3.svg">
                             <p class="text-lg leading-8 text-gray-600 md:text-lg lg:text-2xl">18 rue Etienne Dolet
                                 95190 Goussainville</p>
                         </div>
+                    </div>
+                <div class="flex-wrap mx-auto lg:mx-0 lg:flex justify-center px-4 py-8">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2615.836957789738!2d2.4724326159450465!3d49.0327078963705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e63ff50f20146b%3A0xeae4667c18ec07db!2s18%20Rue%20Etienne%20Dolet%2C%2095190%20Goussainville!5e0!3m2!1sfr!2sfr!4v1667738651632!5m2!1sfr!2sfr"
+                            style="border:0;"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div> 
+            
             
         </section>
     </main>
