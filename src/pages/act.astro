@@ -1,0 +1,51 @@
+---
+import ActivityCard from "../components/ActivityCard"
+import Layout from "../layouts/Layout.astro"
+---
+<Layout>
+  <main>
+    <div class="bg-white/30  max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16">
+            <div class="col-span-2">
+            <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Les activités proposées</h2>
+            <p class="mt-6 text-lg leading-8 text-gray-600 md:text-lg lg:text-xl">
+                Retrouvez ici toutes les activités que nous vous proposons au sein de l’Etoile Goussainvilloise.
+                Les inscriptions ont lieu au début de la saison sportive, c’est à dire au moment de la rentrée scolaire.
+             Nous sommes présents tous les ans lors du forum des associations organisé par la ville de Goussainville, n’hésitez pas à venir nous voir pour tout renseignements.
+             </p>
+         </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 px-4 py-8">
+          <ActivityCard 
+            image="/poutre.jpg" 
+            title="Gymnastique" 
+            text="Découvrez la gymnastique artistique, une discipline complète et passionnante." 
+          />
+          <ActivityCard 
+            image="/images/fitness.jpg" 
+            title="Fitness" 
+            text="Rejoignez nos cours de fitness pour garder la forme et rester en bonne santé." 
+          />
+          <ActivityCard 
+            image="/images/danse.jpg" 
+            title="Danse" 
+            text="Explorez la danse, un moyen expressif et divertissant pour bouger." 
+          />
+          <ActivityCard 
+          image="/images/danse.jpg" 
+          title="Danse" 
+          text="Explorez la danse, un moyen expressif et divertissant pour bouger." 
+        />
+        <ActivityCard 
+        image="/images/danse.jpg" 
+        title="Danse" 
+        text="Explorez la danse, un moyen expressif et divertissant pour bouger." 
+        />
+      <ActivityCard 
+      image="/images/danse.jpg" 
+      title="Danse" 
+      text="Explorez la danse, un moyen expressif et divertissant pour bouger." 
+        />
+        </div>
+    </div>
+  </main>
+</Layout>

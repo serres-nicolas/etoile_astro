@@ -2,10 +2,10 @@
 const navLinks = [
   { name: "Accueil", href: "/" },
   { name: "Club", href: "/club" },
+  { name: "Activités", href: "/act" },
   { name: "Contact", href: "/contact" },
 ];
 ---
-
 <nav class="bg-gray-700">
   <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
     <div class="relative flex h-16 items-center justify-between">
@@ -29,11 +29,11 @@ const navLinks = [
       </div>
 
       <!-- Logo et liens -->
-      <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-        <div class="flex flex-shrink-0 items-center">
+      <div class="flex items-center justify-between flex-1">
+        <div class="flex-shrink-0">
           <img class="h-10 w-auto" src="/logo_blanc.svg" alt="Logo">
         </div>
-        <div class="hidden sm:ml-6 sm:block">
+        <div class="hidden sm:ml-6 sm:flex">
           <div class="flex space-x-4">
             <!-- Liens de navigation -->
             {navLinks.map((link) => (
@@ -50,7 +50,7 @@ const navLinks = [
       </div>
 
       <!-- Icônes sociales -->
-      <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-end gap-5">
+      <div class="flex flex-1 items-center justify-end gap-5">
         <a href="https://www.facebook.com/EtoileGoussainvilloise">
           <img class="h-6 w-auto" src="/fb.svg" alt="Lien vers Facebook">
         </a>
